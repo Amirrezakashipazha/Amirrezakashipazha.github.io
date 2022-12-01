@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    h1{
+        padding: 8px 0;
+        color: #6eb87e;
+        &::selection{
+            background-color: rgb(200, 255, 200);
+        }
+        @media (max-width:768px) {
+            font-size: 22px;
+        }
+        @media (max-width:576px) {
+            font-size: 16px;
+        }
+    }
+    section{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: calc(33.33333% - 2px);
+            height: 180px;
+            border: 1px solid #fff;
+            @media (max-width:992px) {
+                width: calc(50% - 2px);
+            }
+            @media (max-width:576px) {
+                width: calc(100% - 2px);
+            }
+            a{
+                font-size: 50px;
+                text-decoration: none;
+                color: #fff;
+            }
+          
+            
+        }
+        .d1{
+            background: #a62626;
+        }
+        .d2{
+            background: #0084ff;
+        }
+        .d3{
+            background-image: linear-gradient(to right,#ff0025 45%,#000 55%);
+        }
+        .d4{
+            background: #0ea960;
+        }
+        .d5{
+            
+            background-image: linear-gradient(to right ,#6eb87e 45%,#cf6167 55%);
+        }
+        .d6{
+            background: #FF00A6;
+        }
+        .d7{
+            background-color: #ff5722;
+        }
+        .d8{
+            background: #0097a7;
+        }
+        .d9{
+            background: #8854d0;
+        }
+        .d10{
+            background: rgba(255, 221, 0, 1);
+        }
+        .d11{
+            background: #808080;
+        }
+        .d12{
+            background: #ef4056;
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
